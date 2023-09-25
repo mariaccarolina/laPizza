@@ -1,0 +1,87 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  background-image: url("./assets/capa.png");
+  background-size:  100%;
+  background-position: center;
+  height: 25vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.container-pizza{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 70vh;
+}
+
+.card{
+  background-color: #FEF6F4;
+  width: 20vw;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 50vh;
+}
+
+p{
+  color: #616161;
+  text-align: center;
+  font-size: 14px;
+  width: 20vw;
+}
+
+.imgPizza{
+  position: relative;
+  bottom: 30px;
+}
+
+button{
+  background-color: #FFA200;
+  border: none;
+  padding:10px 20px;
+  border-radius: 20px;
+}
+
+.btn{
+  position: relative;
+  top: 20px;
+}
+
+@media (max-width:800px){
+  .container-pizza{
+    flex-direction: column;
+    height: 100vh;
+    border: #FFA200 solid;
+
+  }
+
+  .card{
+    margin-bottom: 30px;
+    height: 20vh;
+    width: 70vw;
+    justify-content: center;
+  }
+
+  p{
+    width: 50vw;
+  }
+
+  .imgPizza{
+    bottom: 8px;
+  }
+
+  .btn{
+    top: 0;
+    
+  }
+}
