@@ -53,9 +53,11 @@ function Card(){
 
     return(
         <main>
+            <div className="pedido">
             <h2>{mensagem}</h2>
             <h2>{pizza}</h2>
             <img src={imagem} alt="" />
+            </div>
         <section className="container-pizza">
             <div className="card">
                 <img className="imgPizza" src={Menta} alt="pizza menta" />

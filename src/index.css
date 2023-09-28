@@ -19,7 +19,8 @@ header{
   display: flex;
   align-items: center;
   justify-content: space-around;
-  height: 70vh;
+  height: 40vh;
+  width: 100VW;
 }
 
 .card{
@@ -30,14 +31,30 @@ header{
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  height: 50vh;
+  height: 28vh;
 }
 
-p{
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pedido{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10PX;
+  border-radius: 20PX;
+  margin-top: 10PX;
+}
+
+ main p{
   color: #616161;
   text-align: center;
   font-size: 14px;
-  width: 20vw;
+  width: 15vw;
 }
 
 .imgPizza{
@@ -57,6 +74,30 @@ button{
   position: relative;
   top: 20px;
 }
+
+footer{
+  background-color: #FCFCFC;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 30px 0;
+}
+
+footer p{
+  width: 30vw;
+}
+
+footer section{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 25vh;
+}
+
+footer button{
+  width: 15vw;
+}
+
 
 @media (max-width:800px){
   .container-pizza{
