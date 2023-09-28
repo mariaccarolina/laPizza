@@ -18,9 +18,9 @@ header{
 .container-pizza{
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   height: 40vh;
-  width: 100VW;
+  width: 90VW;
 }
 
 .card{
