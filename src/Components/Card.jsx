@@ -21,7 +21,7 @@ function Card(){
             setMensagem("Seu pedido é:")
             setPizza("La Menta")
             setImagem(Menta)
-        },2000)
+        },1000)
     }
 
     const laCuma = () => {
@@ -29,7 +29,7 @@ function Card(){
             setMensagem("Seu pedido é:")
             setPizza("La Cuma")
             setImagem(Cuma)
-        },2000)
+        },1000)
     }
 
     const laBana = () => {
@@ -37,7 +37,7 @@ function Card(){
             setMensagem("Seu pedido é:")
             setPizza("La Bana")
             setImagem(Bana)
-        },2000)
+        },1000)
     }
 
     const laToca = () => {
@@ -45,7 +45,7 @@ function Card(){
             setMensagem("Seu pedido é:")
             setPizza("La Toca")
             setImagem(Toca)
-        },2000)
+        },1000)
     }
 
     //setTimeout executa uma função dps de um tempo
