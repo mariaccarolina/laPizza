@@ -29,13 +29,13 @@ h1{
 
 .card{
   background-color: #FEF6F4;
-  width: 20vw;
+  width: 18vw;
   border-radius: 25px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  height: 28vh;
+  height: 25vh;
 }
 
 main{
@@ -45,7 +45,7 @@ main{
 }
 
 .pedido{
-  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  box-shadow:#FEF6F4 0px 8px 24px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -59,6 +59,7 @@ main{
   text-align: center;
   font-size: 14px;
   width: 15vw;
+  padding: 10px 0;
 }
 
 .imgPizza{
@@ -71,7 +72,7 @@ button{
   border: none;
   padding:10px 20px;
   border-radius: 20px;
-  cursor: pointer;
+  cursor: url('data:image/x-icon;base64,AAACAAEAICAQAA8ADwDoAgAAFgAAACgAAAAgAAAAQAAAAAEABAAAAAAAAAIAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAP//ADuPjwAAAIIAAAD/AAempgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAQABAAAAAAAAAAAAAAABAAEiIQAAAAAAAAAAAAAAAQABEREAAAAAAAAAAAAAAAEQERIQAAAAAAAAAAAAAAAhEgAREAAAAAAAAAAAAAIiESA0ARAAAAAAAAAAAAIgABEQQwEgAAAAAAAAACIiIEMBEQARAAAAAAADAiERERA0AREREQAAAAAARAIhERERABEhEREAAAAAAENAAhERERERESIQAAAAAAAEMwESEiAAIREhEAAAAAAABEMCERIEQwIRERAAAAAAAAA0QCERA0RAEREAAAAAAAAABEQCEQQ0ARERAAAAAAAAAABDQCEQQwEREAAAAAAAAAAABEQCEQARERAAAAAAAAAAAANDAiEREVEAAAAAAAAAAAAAREAhERERAAAAAAAAAAAAAAQzAhESEAAAAAAAAAAAAAAAREAhESAAAAAAAAAAAAAAAARDAhEAAAAAAAAAAAAAAAADREAhAAAAAAAAAAAAAAAAADQ0AAAAAAAAAAAAAAAAAAAERDAAAAAAAAAAAAAAAAAAADRAAAAAAAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD////////8////+M///9gP//+ID///iA///4Af//wAH//wAB//AAAf8AAAP+AAAD/AAAA/wAAAf+AAAH/gAAB/8AAA//gAAP/8AAH//gAB//4AA///AAP//4AH///AB///4A///+AP///wH///+B////wf///+H////z///////w=='), auto;
 }
 
 .btn{
@@ -87,15 +88,20 @@ footer{
   padding: 30px 0;
 }
 
+footer h2{
+  color: #2E2E2E;
+}
+
 footer p{
   width: 30vw;
+  line-height: 26px;
 }
 
 footer section{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 25vh;
+  height: 30vh;
 }
 
 footer button{
